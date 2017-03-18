@@ -5,7 +5,7 @@ int main(void)
 {
     std::cout << "Hi!" << std::endl;
 
-    // Try to call a ptyhon script.
+    // Try to create an instance of a Python script 10 times.
     {
         Py_Initialize();
 
